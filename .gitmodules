@@ -1,0 +1,3 @@
+[submodule "glasnost"]
+	path = glasnost
+	url = https://code.google.com/p/glasnost/
