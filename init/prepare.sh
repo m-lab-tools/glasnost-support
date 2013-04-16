@@ -23,7 +23,7 @@ yum install -y libpcap libpcap-devel libcurl libcurl-devel libmicrohttpd \
                libmicrohttpd-devel eclipse-ecj libgcj libgcj-devel \
                java-1.5.0-gcj java-1.5.0-gcj-devel
 
-pushd glasnost/src
+pushd $SOURCE_DIR/glasnost/src
     make 
     make applet
     make applet-mac
