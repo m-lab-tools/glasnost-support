@@ -47,7 +47,7 @@ TODO: make this work.
 EOF
 
 # NOTE: call helper script for signing jar
-$SOURCE_DIR/init/signedpackage.sh $BUILD_DIR/glasnost/src/GlasnostReplayerMac.jar
+$SOURCE_DIR/init/signedpackage.sh $SOURCE_DIR/glasnost/src/GlasnostReplayerMac.jar
 
 cp $SOURCE_DIR/glasnost/src/GlasnostReplayer*.jar  $BUILD_DIR/
 cp $SOURCE_DIR/glasnost/src/gserver  $BUILD_DIR/
