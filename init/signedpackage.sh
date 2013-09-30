@@ -41,7 +41,7 @@ function prep_jar_as_trusted () {
 
     if ! test -r $jarfile ; then
         echo "Error: could not read $jarfile"
-        echo "Is is present and readable?"
+        echo "Is it present and readable?"
         rm -rf $tempdir
         return 1
     fi
