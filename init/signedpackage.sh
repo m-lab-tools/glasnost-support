@@ -113,7 +113,7 @@ fi
 # NOTE: So here $DEST exits. so, verify that it is now signed.
 #
 output=$( jarsigner -certs -verify $DEST )
-if [[ "jar verified." =~ $output ]] ; then
+if [[ $output =~ "jar verified." ]] ; then
     # probably ok
     echo "OK: we think this jar is signed: $output"
     echo "NOTICE: overwriting $ORIG with the signed version at $DEST"
