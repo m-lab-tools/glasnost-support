@@ -1,6 +1,6 @@
 [submodule "glasnost"]
 	path = glasnost
-	url = https://code.google.com/p/glasnost/
+	url = https://github.com/marcelscode/glasnost
 [submodule "package"]
 	path = package
 	url = https://github.com/m-lab/package.git
