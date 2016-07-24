@@ -2,6 +2,7 @@
 
 import glob
 import os
+import time
 raw_log_path = "/home/mpisws_broadband/logs"
 
 os.chdir(raw_log_path)
